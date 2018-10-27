@@ -78,4 +78,59 @@ header{
 		order: 1;
 		margin-bottom: 80px;
 	}
+
 }
+
+	.link-cartao {
+		height: 300px;
+		display: flex;
+		font-weight: bold;
+		color: white;
+		margin-bottom: 30px;
+		font-size: 22px;
+		justify-content: center;
+		align-items: center;
+		text-shadow: 0px 0px 30px #000;
+		background-size: cover;
+		background-position: center;
+		transition: text-shadow 0.2s;
+		transform: all 0.2;
+	}
+
+	.link-cartao:hover{
+		color: white;
+		text-shadow: 0px 0px 10px #000;
+		text-decoration: none;
+		transition: all 0.2s;
+		transform: scale(1.1);
+		opacity: 0.8;
+
+	}
+
+	.link-cartao.sports{
+		background-image: url('imagens/feat8.png');
+	}
+
+	.link-cartao.wellness{
+		background-image: url('imagens/feat9.png');
+	}
+
+	.link-cartao.extreme{
+		background-image: url('imagens/feat10.png');
+	}
+
+	.link-cartao.games{
+		background-image: url('imagens/feat11.png');
+	}
+
+	.link-cartao.culture{
+		background-image: url('imagens/feat12.png');
+	}
+
+	.link-cartao.enjomet{
+		background-image: url('imagens/feat13.png');
+	}
+
+	.link-cartao.trevelling{
+		background-image: url('imagens/feat14.png');
+	}
